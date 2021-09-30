@@ -144,17 +144,17 @@ export default {
             this.done = false
             this.loadHasError = false
             const vm = this
-            let img = new Image()
-            img.onload = function () {
-                if (img.complete) {
-                    vm.done = true
-                }
-            }
-            img.onerror = function () {
-                vm.done = true
-                vm.loadHasError = true
-            }
-            img.src = url
+            // let img = new Image()
+            // img.onload = function () {
+            //     if (img.complete) {
+            //         vm.done = true
+            //     }
+            // }
+            // img.onerror = function () {
+            //     vm.done = true
+            //     vm.loadHasError = true
+            // }
+            // img.src = url
         },
         downloadFile(url) {
             // event.stopPropagation()
