@@ -1,0 +1,33 @@
+{
+  "name": "component-library",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "async-validator": "^1.11.5",
+    "element-ui": "^2.15.6",
+    "vuepress-plugin-demo-container": "^0.2.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "deploy": "npm run build && bash deploy-gh.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhenganxia/component-library.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhenganxia/component-library/issues"
+  },
+  "homepage": "https://github.com/zhenganxia/component-library#readme"
+}
